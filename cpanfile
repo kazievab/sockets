@@ -1,2 +1,2 @@
-requires 'Mojolicious'                 => '4.0';
-requires 'Modern::Perl'                => 0;
+requires 'Mojolicious'                 => '6.66';
+requires 'perl'						   => '5.16.0';
