@@ -1,0 +1,16 @@
+% layout 'default';
+% title 'Square';
+<style>
+ #square {
+    width: 100px;
+    height: 100px;
+    background: red;
+  }
+</style>
+<script>
+ws.onmessage = function (event) {
+        var data = event.data;
+        document.getElementById("square").style.backgroundColor = event.data;
+      };
+</script>
+<div id="square"></div>

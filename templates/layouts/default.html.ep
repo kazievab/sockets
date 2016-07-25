@@ -1,0 +1,9 @@
+<!DOCTYPE html>
+<html>
+  <head><title><%= title %></title></head>
+  <body>
+  <script>
+    var ws = new WebSocket('<%= url_for('echo')->to_abs %>')
+  </script>
+  <%= content %></body>
+</html>

@@ -1,0 +1,8 @@
+% layout 'default';
+% title 'Button';
+<script>
+  function change_color() {
+    ws.send('secret');
+};
+</script>
+<button onclick='change_color()'>Color</button>
