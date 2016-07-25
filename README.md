@@ -14,9 +14,9 @@ Install the Carton package manager. Carton will install all dependencies
 to the local/ sub-directory.
 
 	curl -L cpanmin.us | perl - Carton
-or
+	or
 	cpanm Carton
-and
+	and
 	carton install
 
 # Run
