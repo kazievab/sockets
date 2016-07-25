@@ -11,13 +11,21 @@ Functional color change is implemented through a web square sockets.
 
 
 Install the Carton package manager. Carton will install all dependencies
-to the local/ sub-directory.
+to the local/ sub-directory:
 
-	curl -L cpanmin.us | perl - Carton
-	or
-	cpanm Carton
-	and
-	carton install
+```sh
+curl -L cpanmin.us | perl - Carton
+```
+or
+```sh
+cpanm Carton
+```
+and
+```sh
+carton install
+```
 
 # Run
-	carton exec morbo script/sockets
+```sh
+carton exec morbo script/sockets
+```
